@@ -3,9 +3,10 @@
  * Basic and global styles for generating a grid system, structural layout, and page templates
  * ------------------------------------------------------------------------------------------- */
 
-
+@import "preboot.less";
 // GRID SYSTEM
 // -----------
+
 
 .row {
   .clearfix();
@@ -59,7 +60,7 @@ body {
 
 // Container (centered, fixed-width layouts)
 div.container {
-  width: 940px;
+  width: @siteWidth;
   margin: 0 auto;
 }
 
